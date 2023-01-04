@@ -12,8 +12,7 @@ O projeto foi configurado para rodar com a ajuda do pacote xampp, que disponibil
 Banco de dados:
 Foi utilizado o MySQL como Sistema de Gerenciamento de Banco de Dados. A seguir, tem-se o código criado.
 
-<code>
-create database oficina;
+<code>create database oficina;
 use oficina;
 create table orcamentos(
 	id int auto_increment primary key,	
