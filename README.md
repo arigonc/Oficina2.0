@@ -17,11 +17,19 @@ create database oficina;
 use oficina;
 
 create table orcamentos(
+
 	id int auto_increment primary key,
-    cliente varchar(255) not null,
-    data_orc date not null,
-    hora_orc time not null,
-    vendedor varchar(255) not null,
-    descricao text not null,
-    valor float not null
+	
+	cliente varchar(255) not null,
+	
+	data_orc date not null,
+	
+	hora_orc time not null,
+	
+	vendedor varchar(255) not null,
+	
+	descricao text not null,
+	
+	valor float not null
+	
 );
